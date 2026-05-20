@@ -4,7 +4,7 @@ function coinChanger(N) {
   let count = 0;
 
   for (let coin of coins) {
-    // if coin is less than n
+    
     while (coin <= N) {
       used.push(coin);
       N -= coin;
